@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">StudentQr</string>
+    <string name="student_qr_system">Student QR System</string>
+    <string name="confirm_time">Confirm time</string>
+    <string name="time">time</string>
+    <string name="pick_a_time">Pick a Time</string>
+    <string name="pick_a_date">Pick a Date</string>
+    <string name="filter">Filter</string>
+    <string name="student_name">Student Name</string>
+    <string name="the_student_id_is">The student ID is:</string>
+    <string name="students_class">Students Class</string>
+    <string name="students_email">Students Email</string>
+    <string name="students_time_in">Students Time In</string>
+    <string name="results">results</string>
+    <string name="date">Date</string>
+    <string name="Time">Time</string>
+    <string name="students_email">Students Email</string>
+    <string name="students_email">Students Email</string>
+    <string name="students_class">Students Class</string>
+    <string name="student_name">Student Name</string>
+    <string name="the_student_id_comes_here">The student ID comes here</string>
+</resources>
