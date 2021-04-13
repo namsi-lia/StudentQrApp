@@ -50,7 +50,7 @@ public class StudentService {
         RequestBody formBody = RequestBody.create(JSON , postData.toString());
 
         Request request = new Request.Builder()
-                .url("https://moringa-attendance.herokuapp.com/api/v1/post-user-time/"+scanResult)
+                .url(+scanResult)
                 .post(formBody)
                 .build();
 
