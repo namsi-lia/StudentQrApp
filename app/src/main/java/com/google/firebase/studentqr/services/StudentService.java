@@ -24,7 +24,7 @@ public class StudentService {
 
     public static void findStudent(String scanResult, Callback callback) {
         Request request = new Request.Builder()
-                .url("https://moringa-attendance.herokuapp.com/api/v1/get-user/" + scanResult)
+                .url( + scanResult)
                 .build();
 
         Call call = client.newCall(request);
@@ -32,7 +32,7 @@ public class StudentService {
     }
     public static void filterAttendance(String classId, String queryDate, Callback callback){
         Request request = new Request.Builder()
-                .url("https://moringa-attendance.herokuapp.com/api/v1/get-class-time/"+classId+"/"+queryDate)
+                .url(+classId+"/"+queryDate)
                 .build();
         Call call = client.newCall(request);
         call.enqueue(callback);
